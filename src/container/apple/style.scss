@@ -25,7 +25,16 @@
 .header__link {
     font-size: s.size('small');
 }
+.ad {
+    @extend .section__content;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    // padding: service.spacing(3) service.spacing(1);
+    // color: service.color("colorText");
+    // font-size: service.fontSize("medium");
 
+}
 
 .product__content {
     display: grid;
