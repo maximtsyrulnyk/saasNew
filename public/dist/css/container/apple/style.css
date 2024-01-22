@@ -41,11 +41,12 @@
 
 .header {
   background-color: #454545;
+  display: flex;
+  grid: column;
 }
 
 .header__content {
   display: flex;
-  padding: 16px 0;
   justify-content: space-between;
 }
 
