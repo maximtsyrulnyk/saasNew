@@ -185,26 +185,29 @@
       {{/with}}
     </section> --}}
     <div class="section__double">
-      <div>
-        <section class="product product-small product--trade-in product-big product--light product--top">
-          {{#with iphone}}
+      <div class="grid">
+        <section class="product product--trade_in product-small product--light product--top">
+          {{#with trade_in}}
           <div class="product__content">
             <h1 class="product__title">{{title}}</h1>
             <p class="product__description">{{descriptions}}</p>
-            <div class="product__action large">
+            <div class="product__action ">
               {{#with link}}
-              {{#each text}}
               <div>
-                <a href="{{../link}}" class="ad__link">{{this}}</a>
+                <a href="{{link}}" class="ad__link">{{text}}</a>
                 <img src="/svg/arrow.svg" alt="arrow">
               </div>
-              {{/each}}
               {{/with}}
             </div>
           </div>
           {{/with}}
         </section>
+        </section>
       </div>
+      <div>test</div>
+    </div>
+    <div class="section__double">
+      <div>test</div>
       <div>test</div>
     </div>
     <div class="section__double">
