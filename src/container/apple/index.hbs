@@ -67,7 +67,7 @@
     </div>
     {{/with}}
   </section>
-  <section class="product product--iwatch product-big product--dark product--top">
+  {{!-- <section class="product product--apple-watch product-big product--dark product--top">
     {{#with iwatch}}
     <div class="product__content">
       <h1 class="product__title">{{title}}</h1>
@@ -183,8 +183,34 @@
         </div>
       </div>
       {{/with}}
-    </section>
-
+    </section> --}}
+    <div class="section__double">
+      <div>
+        <section class="product product-small product--trade-in product-big product--light product--top">
+          {{#with iphone}}
+          <div class="product__content">
+            <h1 class="product__title">{{title}}</h1>
+            <p class="product__description">{{descriptions}}</p>
+            <div class="product__action large">
+              {{#with link}}
+              {{#each text}}
+              <div>
+                <a href="{{../link}}" class="ad__link">{{this}}</a>
+                <img src="/svg/arrow.svg" alt="arrow">
+              </div>
+              {{/each}}
+              {{/with}}
+            </div>
+          </div>
+          {{/with}}
+        </section>
+      </div>
+      <div>test</div>
+    </div>
+    <div class="section__double">
+      <div>test</div>
+      <div>test</div>
+    </div>
   </div>
   <footer class="footer">
     {{#each footer}}

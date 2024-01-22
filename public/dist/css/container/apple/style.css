@@ -157,7 +157,7 @@
 
 .product-small {
   max-height: 580px;
-  height: 100vh;
+  height: 50vh;
   background-size: cover;
 }
 @media all and (width < 1000px) {
