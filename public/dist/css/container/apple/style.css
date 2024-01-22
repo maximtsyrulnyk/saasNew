@@ -199,9 +199,9 @@
   background-color: #fafafa;
 }
 
-.product--trade-in {
-  background-image: url(/img/trade_in.png);
-  background-color: #f8f8fd;
+.product--apple-watch {
+  background-image: url(/img/apple_watch.png);
+  background-color: #000;
 }
 
 .product--conference {

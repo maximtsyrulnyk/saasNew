@@ -129,8 +129,10 @@
 $productImage: (
     'iphone-pro' '/img/iphone_pro.png' #000,
     'iphone' '/img/iphone.png' #fafafa,
+    'apple-watch' '/img/apple_watch.png' #000
     'trade-in' '/img/trade_in.png' #f8f8fd,
     'conference' '/img/conference.png' #000,
+    
 );
 
 @each $class, $url, $color in $productImage {
