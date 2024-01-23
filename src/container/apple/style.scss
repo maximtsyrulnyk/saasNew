@@ -88,7 +88,7 @@
 }
 .product-small {
     max-height: 580px;
-    height: 50vh;
+    height: 100vh;
 
     background-size: cover;
 
@@ -129,10 +129,13 @@
 $productImage: (
     'iphone-pro' '/img/iphone_pro.png' #000,
     'iphone' '/img/iphone.png' #fafafa,
-    'apple-watch' '/img/apple_watch.png' #000
+    'apple-watch' '/img/apple_watch.png' #000,
     'trade-in' '/img/trade_in.png' #f8f8fd,
     'conference' '/img/conference.png' #000,
-    
+    'ipad' '/img/ipad.png' #f8f8fd,
+    'small_business' '/img/small_business.png' #000,
+    'card' '/img/card.png' #f8f8fd,
+    'mother’s_Day_Gifts' '/img/mother’s_Day_Gifts.png' #f8f8fd,
 );
 
 @each $class, $url, $color in $productImage {

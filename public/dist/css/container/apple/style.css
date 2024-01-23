@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .section, .header, .product {
   display: flex;
   justify-content: center;
@@ -157,7 +158,7 @@
 
 .product-small {
   max-height: 580px;
-  height: 50vh;
+  height: 100vh;
   background-size: cover;
 }
 @media all and (width < 1000px) {
@@ -204,9 +205,34 @@
   background-color: #000;
 }
 
+.product--trade-in {
+  background-image: url(/img/trade_in.png);
+  background-color: #f8f8fd;
+}
+
 .product--conference {
   background-image: url(/img/conference.png);
   background-color: #000;
+}
+
+.product--ipad {
+  background-image: url(/img/ipad.png);
+  background-color: #f8f8fd;
+}
+
+.product--small_business {
+  background-image: url(/img/small_business.png);
+  background-color: #000;
+}
+
+.product--card {
+  background-image: url(/img/card.png);
+  background-color: #f8f8fd;
+}
+
+.product--mother’s_Day_Gifts {
+  background-image: url(/img/mother’s_Day_Gifts.png);
+  background-color: #f8f8fd;
 }
 
 .product-small .product__title {
