@@ -335,12 +335,18 @@
   </div>
   <footer class="footer">
     {{#each footer}}
-    <div>
-      <h6 class="footer__title">{{title}}</h6>
-      {{#each links}}
-      <a href="{{url}}" class="footer__link">{{text}}</a>
-      {{/each}}
+    <div class="row">
+      <div class="col-2">
+        <span class="footer_title">
+          <h6 class="footer__title">{{title}}</h6>
+        </span>
+
+        {{#each links}}
+        <a href="{{url}}" class="footer__link">{{text}}</a>
+        {{/each}}
+      </div>
     </div>
+
     {{/each}}
   </footer>
 
